@@ -1,6 +1,6 @@
 body
 {
-	background-image: linear-gradient(blue, skyblue) ;
+	background-image: linear-gradient(rgb(40, 128, 230), skyblue) ;
 }
 
 	.login1 , .login2
@@ -18,7 +18,7 @@ body
 	margin: 20px;
 	width: 280px;
 }
-#word
+.InPut
 {
 	width: 60%;
 }
@@ -26,15 +26,19 @@ body
 {
 	letter-spacing: 5px;
 }
-#output
+#qD
 {
 background: white;
 border-radius: 10px;
-border-top: 10px solid #AA4465;
+border-top: 10px solid #ff0000;
 padding: 10px;
 float: none;
 text-align: left;
 }
 #log{
-    background-image: linear-gradient( white,blue); 
+    background-image: linear-gradient( white,rgb(14, 14, 255)); 
+}
+img{
+	width: 100px;
+	height: 100px;
 }
