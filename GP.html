@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Guess The Word</title>
+	<title>MathBlitz</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
 
 <link rel="stylesheet" type="text/css" href="CSS.css">
 </head>
@@ -23,15 +24,15 @@
 		<br>
 <div id="qD" class="col-lg-6"></div>
 		<label>Type your Numbers <b style="color: red">This will become a multiplication problem</b></label>
-<input class="form-control" type="number" class="InPut" placeholder="First Number">
+<input class="form-control" type="number" class="InPut" placeholder="First Number" id="n1">
 <br>
-<input class="form-control" type="number" class="InPut" placeholder="Second Number">
+<input class="form-control" type="number" class="InPut" placeholder="Second Number" id="n2">
 		<br>
-<button id="SendW" onclick="W()" style="width: 30%;" class="btn btn-success">Send</button>
-	</center>
+<button id="SendN" onclick="N()" style="width: 30%;" class="btn btn-success">Send</button>
 </div>
+<button id="back" onclick="B()"> Back </button>
 <img src="https://freesvg.org/img/GridCT-Boat-Symbol.png">
-
+</center>
 <script src="main.js"></script>
 </body>
 </html>
