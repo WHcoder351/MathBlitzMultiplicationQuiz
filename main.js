@@ -8,8 +8,14 @@ function L (){
    function N(){
        n1 = document.getElementById("n1").value;
        n2 = document.getElementById("n2").value;
-       localStorage.setItem("No.1", n1);
-       localStorage.setItem("No.2", n2);
+AcA = parseInt(n1) * parseInt(n2);
+Qn = "<h4>" + n1 +" times " + n2 + "</h4>"
+In = "<br>Answer: <input type = 'text' id = 'icb'>";
+Cb = "<br><br><button class = 'btn btn-danger' onclick='check()'>Check</button>"
+row = Qn + In + Cb
+document.getElementById("qD").innerHTML = row;
+document.getElementById("n1").value = "";
+document.getElementById("n2").value = "";
    }
 
    function B(){
